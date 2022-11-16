@@ -13,15 +13,15 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '15a12fd3e23ed19c687fe6b9554d04d8',
 
-  PROVINCE: '江西',
-  CITY: '宜春',
+  PROVINCE: '广东',
+  CITY: '广州',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小辰',
+      name: '成成',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oavkT5-0R6KhXYmtDeGQT8gZSvHk',
+      id: 'oavkT50_M0_gqdAFYkfCIY11xcdE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Jir4-X8o2iin7rqxjWGWCSJYsxNcxQpCZsglb6L36gc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小辰', year: '2002', date: '01-15',
+          type: '*生日', name: '小成', year: '2001', date: '09-28',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
       ],
