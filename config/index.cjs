@@ -14,14 +14,14 @@ const USER_CONFIG = {
   APP_SECRET: '15a12fd3e23ed19c687fe6b9554d04d8',
 
   PROVINCE: '江西',
-  CITY: '宜春',
+  CITY: '吉安',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小辰',
+      name: '小雅',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oavkT5-0R6KhXYmtDeGQT8gZSvHk',
+      id: 'oavkT50_M0_gqdAFYkfCIY11xcdE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Jir4-X8o2iin7rqxjWGWCSJYsxNcxQpCZsglb6L36gc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,14 +29,14 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '生日', name: '小辰', year: '2002', date: '01-15',
+          type: '生日', name: '小雅', year: '2002', date: '05-04',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-10-26' },
+        { keyword: 'love_day', date: '2022-11-16' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
